@@ -1,6 +1,7 @@
 package com.example.just4u;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     Button mBtnHome, mBtnCalc, mBtnIntent, mBtnWeb;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,5 +53,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(Move4);
             }
         });
+
     }
 }

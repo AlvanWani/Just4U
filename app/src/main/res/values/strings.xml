@@ -6,4 +6,10 @@
     <string name="sms_button">SMS</string>
     <string name="stk_button">Sim Toolkit</string>
     <string name="dial_button">Dial</string>
+    <string name="notification">Simple Notification</string>
+    <string name="calc">Calculator</string>
+    <string name="intent">Intents</string>
+    <string name="web">Websites</string>
+    <string name="dis_notification">Display Notification</string>
+    <string name="home_page">Home Page</string>
 </resources>

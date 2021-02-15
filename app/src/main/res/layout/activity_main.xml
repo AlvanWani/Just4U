@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="46dp"
         android:layout_marginLeft="46dp"
-        android:text="Home"
+        android:text="@string/notification"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_calc"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -23,7 +23,7 @@
         android:layout_marginTop="215dp"
         android:layout_marginEnd="35dp"
         android:layout_marginRight="35dp"
-        android:text="Calculator"
+        android:text="@string/calc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="58dp"
         android:layout_marginLeft="58dp"
-        android:text="Intents"
+        android:text="@string/intent"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_web"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -44,7 +44,7 @@
         android:layout_marginEnd="59dp"
         android:layout_marginRight="59dp"
         android:layout_marginBottom="202dp"
-        android:text="Websites"
+        android:text="@string/web"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

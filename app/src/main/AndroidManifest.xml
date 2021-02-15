@@ -7,12 +7,19 @@
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
         android:icon="@mipmap/alvan"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/alvan_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Just4U"
-        android:fullBackupContent="@xml/backup_descriptor">
+        android:theme="@style/Theme.Just4U">
+        <activity android:name=".HopePageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".WebsitesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
